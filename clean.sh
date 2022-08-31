@@ -1,625 +1,625 @@
-sudo apt-get remove -y adwaita-icon-theme \
-apparmor \
-apt-transport-https \
-aspnetcore-runtime-2.1 \
-aspnetcore-runtime-3.1 \
-aspnetcore-runtime-5.0 \
-aspnetcore-runtime-6.0 \
-aspnetcore-targeting-pack-3.1 \
-aspnetcore-targeting-pack-5.0 \
-aspnetcore-targeting-pack-6.0 \
-bazel \
-bind9-dnsutils \
-bind9-host \
-bind9-libs \
-binfmt-support \
-binutils \
-binutils-common \
-bison \
-bridge-utils \
-bsdextrautils \
-build-essential \
-bzip2 \
-ca-certificates \
-ca-certificates-java \
-cgroup-tools \
-clangd-9 \
-cmake-data \
-containerd.io \
-cpio \
-cpp \
-cpp-10 \
-cron \
-curl \
-dbus \
-dbus-user-session \
-dirmngr \
-distro-info-data \
-dmsetup \
-dnsmasq-base \
-dnsutils \
-docker-ce \
-docker-ce-cli \
-docker-ce-rootless-extras \
-docker-scan-plugin \
-dotnet-apphost-pack-3.1 \
-dotnet-apphost-pack-5.0 \
-dotnet-apphost-pack-6.0 \
-dotnet-host \
-dotnet-hostfxr-2.1 \
-dotnet-hostfxr-3.1 \
-dotnet-hostfxr-5.0 \
-dotnet-hostfxr-6.0 \
-dotnet-runtime-2.1 \
-dotnet-runtime-3.1 \
-dotnet-runtime-5.0 \
-dotnet-runtime-6.0 \
-dotnet-runtime-deps-2.1 \
-dotnet-runtime-deps-3.1 \
-dotnet-runtime-deps-5.0 \
-dotnet-runtime-deps-6.0 \
-dotnet-sdk-2.1 \
-dotnet-sdk-3.1 \
-dotnet-sdk-5.0 \
-dotnet-sdk-6.0 \
-dotnet-targeting-pack-3.1 \
-dotnet-targeting-pack-5.0 \
-dotnet-targeting-pack-6.0 \
-dpkg \
-dpkg-dev \
-emacs-bin-common \
-emacs-common \
-emacs-nox \
-emacsen-common \
-file \
-fontconfig \
-fontconfig-config \
-fonts-dejavu-core \
-fuse \
-g++ \
-g++-10 \
-gcc \
-gcc-10 \
-gcc-10-base \
-gcc-9-base \
-gcsfuse \
-gdb \
-gettext \
-gettext-base \
-gh \
-gir1.2-glib-2.0 \
-gir1.2-packagekitglib-1.0 \
-git \
-git-man \
-gnupg \
-gnupg-l10n \
-gnupg-utils \
-gnupg2 \
-gpg-agent \
-gpg-wks-client \
-gpg-wks-server \
-gpgconf \
-gpgsm \
-graphviz \
-groff-base \
-gtk-update-icon-cache \
-hdf5-helpers \
-hicolor-icon-theme \
-htop \
-initramfs-tools \
-initramfs-tools-core \
-iproute2 \
-iptables \
-iso-codes \
-java-common \
-jq \
-klibc-utils \
-kmod \
-kubectl \
-less \
-lib32gcc-s1 \
-lib32stdc++6 \
-libaec-dev \
-libaec0 \
-libann0 \
-libapparmor1 \
-libarchive13 \
-libargon2-1 \
-libasan6 \
-libasound2 \
-libasound2-data \
-libassuan0 \
-libasyncns0 \
-libatk-bridge2.0-0 \
-libatk-wrapper-java \
-libatk-wrapper-java-jni \
-libatk1.0-0 \
-libatk1.0-data \
-libatomic1 \
-libatspi2.0-0 \
-libavahi-client-dev \
-libavahi-client3 \
-libavahi-common-data \
-libavahi-common-dev \
-libavahi-common3 \
-libbabeltrace1 \
-libbinutils \
-libblkid-dev \
-libboost-regex1.74.0 \
-libbpf0 \
-libbrotli1 \
-libbsd0 \
-libc-bin \
-libc-dev-bin \
-libc-l10n \
-libc6-dbg \
-libc6-dev \
-libc6-i386 \
-libcairo2 \
-libcap2 \
-libcap2-bin \
-libcapstone4 \
-libcbor0 \
-libcc1-0 \
-libcdt5 \
-libcgraph6 \
-libcgroup1 \
-libclang-common-9-dev \
-libcrypt-dev \
-libcrypt1 \
-libcryptsetup12 \
-libctf-nobfd0 \
-libctf0 \
-libcups2 \
-libcurl3-gnutls \
-libcurl4 \
-libdatrie1 \
-libdb5.3 \
-libdbus-1-3 \
-libdbus-1-dev \
-libdebuginfod1 \
-libdeflate0 \
-libdevmapper1.02.1 \
-libdpkg-perl \
-libdrm-amdgpu1 \
-libdrm-common \
-libdrm-intel1 \
-libdrm-nouveau2 \
-libdrm-radeon1 \
-libdrm2 \
-libdw1 \
-libedit2 \
-libelf1 \
-liberror-perl \
-libestr0 \
-libevent-2.0-5 \
-libexpat1 \
-libexpat1-dev \
-libfastjson4 \
-libffi-dev \
-libffi7 \
-libfido2-1 \
-libflac8 \
-libfontconfig1 \
-libfontenc1 \
-libfreetype6 \
-libfribidi0 \
-libfstrm0 \
-libfuse2 \
-libgcc-10-dev \
-libgcrypt20 \
-libgd3 \
-libgdbm-compat4 \
-libgdbm-dev \
-libgdbm6 \
-libgdk-pixbuf-2.0-0 \
-libgdk-pixbuf2.0-common \
-libgfortran5 \
-libgif7 \
-libgirepository-1.0-1 \
-libgl1 \
-libgl1-mesa-dri \
-libglapi-mesa \
-libglib2.0-0 \
-libglib2.0-bin \
-libglib2.0-data \
-libglib2.0-dev \
-libglib2.0-dev-bin \
-libglvnd0 \
-libglx-mesa0 \
-libglx0 \
-libgmp-dev \
-libgmpxx4ldbl \
-libgomp1 \
-libgpg-error0 \
-libgpm2 \
-libgraphite2-3 \
-libgssapi-krb5-2 \
-libgtk2.0-0 \
-libgtk2.0-common \
-libgts-0.7-5 \
-libgvc6 \
-libgvpr2 \
-libharfbuzz0b \
-libhdf5-103-1 \
-libhdf5-cpp-103-1 \
-libhdf5-dev \
-libhdf5-fortran-102 \
-libhdf5-hl-100 \
-libhdf5-hl-cpp-100 \
-libhdf5-hl-fortran-100 \
-libhogweed6 \
-libice6 \
-libicu67 \
-libidn11 \
-libidn2-0 \
-libio-pty-perl \
-libip4tc2 \
-libip6tc2 \
-libipc-run-perl \
-libipt2 \
-libisl23 \
-libitm1 \
-libjansson4 \
-libjbig0 \
-libjpeg-dev \
-libjpeg62-turbo \
-libjpeg62-turbo-dev \
-libjq1 \
-libjson-c5 \
-libjson-perl \
-libjsoncpp24 \
-libk5crypto3 \
-libkeyutils1 \
-libklibc \
-libkmod2 \
-libkrb5-3 \
-libkrb5support0 \
-libksba8 \
-liblab-gamut1 \
-liblcms2-2 \
-libldap-2.4-2 \
-libllvm11 \
-libllvm9 \
-liblmdb0 \
-liblognorm5 \
-liblsan0 \
-libltdl7 \
-liblttng-ust-ctl4 \
-liblttng-ust0 \
-liblua5.2-0 \
-liblxc1 \
-liblz4-1 \
-liblzma-dev \
-libmagic-mgc \
-libmagic1 \
-libmaxminddb0 \
-libmd0 \
-libmnl0 \
-libmount-dev \
-libmpc3 \
-libmpdec3 \
-libmpfr6 \
-libncurses-dev \
-libncurses5-dev \
-libncurses6 \
-libncursesw6 \
-libnetfilter-conntrack3 \
-libnettle8 \
-libnfnetlink0 \
-libnftables1 \
-libnftnl11 \
-libnghttp2-14 \
-libnl-3-200 \
-libnl-genl-3-200 \
-libnpth0 \
-libnsl-dev \
-libnsl2 \
-libnspr4 \
-libnss-systemd \
-libnss3 \
-libnuma1 \
-libogg0 \
-libonig5 \
-libopus0 \
-libp11-kit0 \
-libpackagekit-glib2-18 \
-libpam-modules-bin \
-libpam-systemd \
-libpango-1.0-0 \
-libpangocairo-1.0-0 \
-libpangoft2-1.0-0 \
-libpathplan4 \
-libpciaccess0 \
-libpcre16-3 \
-libpcre2-16-0 \
-libpcre2-32-0 \
-libpcre2-8-0 \
-libpcre2-dev \
-libpcre2-posix2 \
-libpcre3 \
-libpcre3-dev \
-libpcre32-3 \
-libpcrecpp0v5 \
-libpcsclite1 \
-libperl5.32 \
-libpipeline1 \
-libpixman-1-0 \
-libpng16-16 \
-libpq-dev \
-libpq5 \
-libprocps8 \
-libprotobuf-c1 \
-libprotobuf23 \
-libprotoc23 \
-libpsl5 \
-libpulse-dev \
-libpulse-mainloop-glib0 \
-libpulse0 \
-libpython2-stdlib \
-libpython2.7 \
-libpython2.7-dev \
-libpython2.7-minimal \
-libpython2.7-stdlib \
-libpython3-stdlib \
-libpython3.9 \
-libpython3.9-dev \
-libpython3.9-minimal \
-libpython3.9-stdlib \
-libquadmath0 \
-libreadline-dev \
-libreadline8 \
-librhash0 \
-librtmp1 \
-libruby2.7 \
-libsasl2-2 \
-libsasl2-modules-db \
-libsecret-1-0 \
-libsecret-common \
-libselinux1-dev \
-libsemanage-common \
-libsemanage1 \
-libsensors-config \
-libsensors5 \
-libsepol1 \
-libsepol1-dev \
-libsigsegv2 \
-libslang2 \
-libslirp0 \
-libsm6 \
-libsndfile1 \
-libsodium23 \
-libsource-highlight-common \
-libsource-highlight4v5 \
-libsqlite3-0 \
-libsqlite3-dev \
-libssh2-1 \
-libssl-dev \
-libssl1.1 \
-libstdc++-10-dev \
-libsz2 \
-libtasn1-6 \
-libtcl8.6 \
-libthai-data \
-libthai0 \
-libtiff5 \
-libtime-duration-perl \
-libtimedate-perl \
-libtirpc-common \
-libtirpc-dev \
-libtirpc3 \
-libtool \
-libtsan0 \
-libubsan1 \
-libuchardet0 \
-libunistring2 \
-libunwind8 \
-liburcu6 \
-libutempter0 \
-libuv1 \
-libvorbis0a \
-libvorbisenc2 \
-libvulkan1 \
-libwebp6 \
-libwrap0 \
-libx11-6 \
-libx11-data \
-libx11-xcb1 \
-libxau6 \
-libxaw7 \
-libxcb-dri2-0 \
-libxcb-dri3-0 \
-libxcb-glx0 \
-libxcb-present0 \
-libxcb-render0 \
-libxcb-shape0 \
-libxcb-shm0 \
-libxcb-sync1 \
-libxcb-xfixes0 \
-libxcb1 \
-libxcomposite1 \
-libxcursor1 \
-libxdamage1 \
-libxdmcp6 \
-libxext6 \
-libxfixes3 \
-libxft2 \
-libxi6 \
-libxinerama1 \
-libxkbfile1 \
-libxml2 \
-libxmu6 \
-libxmuu1 \
-libxpm4 \
-libxrandr2 \
-libxrender1 \
-libxshmfence1 \
-libxslt1.1 \
-libxt6 \
-libxtables12 \
-libxtst6 \
-libxv1 \
-libxxf86dga1 \
-libxxf86vm1 \
-libxxhash0 \
-libyaml-0-2 \
-libyaml-dev \
-libz3-4 \
-libzstd1 \
-linux-base \
-linux-libc-dev \
-locales \
-lsb-release \
-lxc \
-lynx \
-lynx-common \
-m4 \
-mailcap \
-make \
-man-db \
-manpages \
-mc \
-mc-data \
-media-types \
-mercurial \
-mercurial-common \
-mime-support \
-moreutils \
-mount \
-mysql-apt-config \
-mysql-client \
-mysql-common \
-mysql-community-client \
-mysql-community-client-core \
-mysql-community-client-plugins \
-nano \
-net-tools \
-netbase \
-netstandard-targeting-pack-2.1 \
-nftables \
-openjdk-11-jdk \
-openjdk-11-jdk-headless \
-openjdk-11-jre \
-openjdk-11-jre-headless \
-openjdk-17-jdk \
-openjdk-17-jdk-headless \
-openjdk-17-jre \
-openjdk-17-jre-headless \
-openjdk-8-jdk \
-openjdk-8-jdk-headless \
-openjdk-8-jre \
-openjdk-8-jre-headless \
-openssh-client \
-openssh-server \
-openssh-sftp-server \
-openssl \
-packages-microsoft-prod \
-packer \
-parallel \
-passwd \
-patch \
-perl \
-perl-modules-5.32 \
-pgdg-keyring \
-php-common \
-php-pear \
-php7.2-bcmath \
-php7.2-cgi \
-php7.2-cli \
-php7.2-common \
-php7.2-dev \
-php7.2-json \
-php7.2-mbstring \
-php7.2-mysql \
-php7.2-opcache \
-php7.2-readline \
-php7.2-xml \
-pigz \
-pinentry-curses \
-pkg-config \
-postgresql \
-postgresql-14 \
-postgresql-client \
-postgresql-client-14 \
-postgresql-client-common \
-postgresql-common \
-powershell \
-procps \
-protobuf-compiler \
-psmisc \
-python-apt-common \
-python-pip-whl \
-python-pkg-resources \
-python-setuptools \
-python2 \
-python2-minimal \
-python2.7 \
-python2.7-dev \
-python2.7-minimal \
-python3 \
-python3-apt \
-python3-dbus \
-python3-distutils \
-python3-gi \
-python3-lib2to3 \
-python3-minimal \
-python3-pip \
-python3-pkg-resources \
-python3-pycurl \
-python3-setuptools \
-python3-software-properties \
-python3-venv \
-python3-wheel \
-python3.9 \
-python3.9-dev \
-python3.9-minimal \
-python3.9-venv \
-qemu-user \
-qemu-user-static \
-rake \
-readline-common \
-rsyslog \
-ruby \
-ruby-dev \
-ruby-minitest \
-ruby-net-telnet \
-ruby-power-assert \
-ruby-rubygems \
-ruby-test-unit \
-ruby-xmlrpc \
-ruby2.7 \
-ruby2.7-dev \
-rubygems-integration \
-runit-helper \
-sensible-utils \
-shared-mime-info \
-shtool \
-slirp4netns \
-software-properties-common \
-sqlite3 \
-ssl-cert \
-strace \
-sysstat \
-systemd \
-systemd-sysv \
-systemd-timesyncd \
-telnet \
-terraform \
-tmux \
-tzdata \
-ucf \
-udev \
-unzip \
-uuid-dev \
-vim \
-vim-common \
-vim-nox \
-vim-runtime \
-wget \
-whois \
-x11-common \
-x11-utils \
-xxd \
-xz-utils \
-zip \
-zlib1g-dev
+sudo apt-get remove -y adwaita-icon-theme && \
+sudo apt-get remove -y apparmor && \
+sudo apt-get remove -y apt-transport-https && \
+sudo apt-get remove -y aspnetcore-runtime-2.1 && \
+sudo apt-get remove -y aspnetcore-runtime-3.1 && \
+sudo apt-get remove -y aspnetcore-runtime-5.0 && \
+sudo apt-get remove -y aspnetcore-runtime-6.0 && \
+sudo apt-get remove -y aspnetcore-targeting-pack-3.1 && \
+sudo apt-get remove -y aspnetcore-targeting-pack-5.0 && \
+sudo apt-get remove -y aspnetcore-targeting-pack-6.0 && \
+sudo apt-get remove -y bazel && \
+sudo apt-get remove -y bind9-dnsutils && \
+sudo apt-get remove -y bind9-host && \
+sudo apt-get remove -y bind9-libs && \
+sudo apt-get remove -y binfmt-support && \
+sudo apt-get remove -y binutils && \
+sudo apt-get remove -y binutils-common && \
+sudo apt-get remove -y bison && \
+sudo apt-get remove -y bridge-utils && \
+sudo apt-get remove -y bsdextrautils && \
+sudo apt-get remove -y build-essential && \
+sudo apt-get remove -y bzip2 && \
+sudo apt-get remove -y ca-certificates && \
+sudo apt-get remove -y ca-certificates-java && \
+sudo apt-get remove -y cgroup-tools && \
+sudo apt-get remove -y clangd-9 && \
+sudo apt-get remove -y cmake-data && \
+sudo apt-get remove -y containerd.io && \
+sudo apt-get remove -y cpio && \
+sudo apt-get remove -y cpp && \
+sudo apt-get remove -y cpp-10 && \
+sudo apt-get remove -y cron && \
+sudo apt-get remove -y curl && \
+sudo apt-get remove -y dbus && \
+sudo apt-get remove -y dbus-user-session && \
+sudo apt-get remove -y dirmngr && \
+sudo apt-get remove -y distro-info-data && \
+sudo apt-get remove -y dmsetup && \
+sudo apt-get remove -y dnsmasq-base && \
+sudo apt-get remove -y dnsutils && \
+sudo apt-get remove -y docker-ce && \
+sudo apt-get remove -y docker-ce-cli && \
+sudo apt-get remove -y docker-ce-rootless-extras && \
+sudo apt-get remove -y docker-scan-plugin && \
+sudo apt-get remove -y dotnet-apphost-pack-3.1 && \
+sudo apt-get remove -y dotnet-apphost-pack-5.0 && \
+sudo apt-get remove -y dotnet-apphost-pack-6.0 && \
+sudo apt-get remove -y dotnet-host && \
+sudo apt-get remove -y dotnet-hostfxr-2.1 && \
+sudo apt-get remove -y dotnet-hostfxr-3.1 && \
+sudo apt-get remove -y dotnet-hostfxr-5.0 && \
+sudo apt-get remove -y dotnet-hostfxr-6.0 && \
+sudo apt-get remove -y dotnet-runtime-2.1 && \
+sudo apt-get remove -y dotnet-runtime-3.1 && \
+sudo apt-get remove -y dotnet-runtime-5.0 && \
+sudo apt-get remove -y dotnet-runtime-6.0 && \
+sudo apt-get remove -y dotnet-runtime-deps-2.1 && \
+sudo apt-get remove -y dotnet-runtime-deps-3.1 && \
+sudo apt-get remove -y dotnet-runtime-deps-5.0 && \
+sudo apt-get remove -y dotnet-runtime-deps-6.0 && \
+sudo apt-get remove -y dotnet-sdk-2.1 && \
+sudo apt-get remove -y dotnet-sdk-3.1 && \
+sudo apt-get remove -y dotnet-sdk-5.0 && \
+sudo apt-get remove -y dotnet-sdk-6.0 && \
+sudo apt-get remove -y dotnet-targeting-pack-3.1 && \
+sudo apt-get remove -y dotnet-targeting-pack-5.0 && \
+sudo apt-get remove -y dotnet-targeting-pack-6.0 && \
+sudo apt-get remove -y dpkg && \
+sudo apt-get remove -y dpkg-dev && \
+sudo apt-get remove -y emacs-bin-common && \
+sudo apt-get remove -y emacs-common && \
+sudo apt-get remove -y emacs-nox && \
+sudo apt-get remove -y emacsen-common && \
+sudo apt-get remove -y file && \
+sudo apt-get remove -y fontconfig && \
+sudo apt-get remove -y fontconfig-config && \
+sudo apt-get remove -y fonts-dejavu-core && \
+sudo apt-get remove -y fuse && \
+sudo apt-get remove -y g++ && \
+sudo apt-get remove -y g++-10 && \
+sudo apt-get remove -y gcc && \
+sudo apt-get remove -y gcc-10 && \
+sudo apt-get remove -y gcc-10-base && \
+sudo apt-get remove -y gcc-9-base && \
+sudo apt-get remove -y gcsfuse && \
+sudo apt-get remove -y gdb && \
+sudo apt-get remove -y gettext && \
+sudo apt-get remove -y gettext-base && \
+sudo apt-get remove -y gh && \
+sudo apt-get remove -y gir1.2-glib-2.0 && \
+sudo apt-get remove -y gir1.2-packagekitglib-1.0 && \
+sudo apt-get remove -y git && \
+sudo apt-get remove -y git-man && \
+sudo apt-get remove -y gnupg && \
+sudo apt-get remove -y gnupg-l10n && \
+sudo apt-get remove -y gnupg-utils && \
+sudo apt-get remove -y gnupg2 && \
+sudo apt-get remove -y gpg-agent && \
+sudo apt-get remove -y gpg-wks-client && \
+sudo apt-get remove -y gpg-wks-server && \
+sudo apt-get remove -y gpgconf && \
+sudo apt-get remove -y gpgsm && \
+sudo apt-get remove -y graphviz && \
+sudo apt-get remove -y groff-base && \
+sudo apt-get remove -y gtk-update-icon-cache && \
+sudo apt-get remove -y hdf5-helpers && \
+sudo apt-get remove -y hicolor-icon-theme && \
+sudo apt-get remove -y htop && \
+sudo apt-get remove -y initramfs-tools && \
+sudo apt-get remove -y initramfs-tools-core && \
+sudo apt-get remove -y iproute2 && \
+sudo apt-get remove -y iptables && \
+sudo apt-get remove -y iso-codes && \
+sudo apt-get remove -y java-common && \
+sudo apt-get remove -y jq && \
+sudo apt-get remove -y klibc-utils && \
+sudo apt-get remove -y kmod && \
+sudo apt-get remove -y kubectl && \
+sudo apt-get remove -y less && \
+sudo apt-get remove -y lib32gcc-s1 && \
+sudo apt-get remove -y lib32stdc++6 && \
+sudo apt-get remove -y libaec-dev && \
+sudo apt-get remove -y libaec0 && \
+sudo apt-get remove -y libann0 && \
+sudo apt-get remove -y libapparmor1 && \
+sudo apt-get remove -y libarchive13 && \
+sudo apt-get remove -y libargon2-1 && \
+sudo apt-get remove -y libasan6 && \
+sudo apt-get remove -y libasound2 && \
+sudo apt-get remove -y libasound2-data && \
+sudo apt-get remove -y libassuan0 && \
+sudo apt-get remove -y libasyncns0 && \
+sudo apt-get remove -y libatk-bridge2.0-0 && \
+sudo apt-get remove -y libatk-wrapper-java && \
+sudo apt-get remove -y libatk-wrapper-java-jni && \
+sudo apt-get remove -y libatk1.0-0 && \
+sudo apt-get remove -y libatk1.0-data && \
+sudo apt-get remove -y libatomic1 && \
+sudo apt-get remove -y libatspi2.0-0 && \
+sudo apt-get remove -y libavahi-client-dev && \
+sudo apt-get remove -y libavahi-client3 && \
+sudo apt-get remove -y libavahi-common-data && \
+sudo apt-get remove -y libavahi-common-dev && \
+sudo apt-get remove -y libavahi-common3 && \
+sudo apt-get remove -y libbabeltrace1 && \
+sudo apt-get remove -y libbinutils && \
+sudo apt-get remove -y libblkid-dev && \
+sudo apt-get remove -y libboost-regex1.74.0 && \
+sudo apt-get remove -y libbpf0 && \
+sudo apt-get remove -y libbrotli1 && \
+sudo apt-get remove -y libbsd0 && \
+sudo apt-get remove -y libc-bin && \
+sudo apt-get remove -y libc-dev-bin && \
+sudo apt-get remove -y libc-l10n && \
+sudo apt-get remove -y libc6-dbg && \
+sudo apt-get remove -y libc6-dev && \
+sudo apt-get remove -y libc6-i386 && \
+sudo apt-get remove -y libcairo2 && \
+sudo apt-get remove -y libcap2 && \
+sudo apt-get remove -y libcap2-bin && \
+sudo apt-get remove -y libcapstone4 && \
+sudo apt-get remove -y libcbor0 && \
+sudo apt-get remove -y libcc1-0 && \
+sudo apt-get remove -y libcdt5 && \
+sudo apt-get remove -y libcgraph6 && \
+sudo apt-get remove -y libcgroup1 && \
+sudo apt-get remove -y libclang-common-9-dev && \
+sudo apt-get remove -y libcrypt-dev && \
+sudo apt-get remove -y libcrypt1 && \
+sudo apt-get remove -y libcryptsetup12 && \
+sudo apt-get remove -y libctf-nobfd0 && \
+sudo apt-get remove -y libctf0 && \
+sudo apt-get remove -y libcups2 && \
+sudo apt-get remove -y libcurl3-gnutls && \
+sudo apt-get remove -y libcurl4 && \
+sudo apt-get remove -y libdatrie1 && \
+sudo apt-get remove -y libdb5.3 && \
+sudo apt-get remove -y libdbus-1-3 && \
+sudo apt-get remove -y libdbus-1-dev && \
+sudo apt-get remove -y libdebuginfod1 && \
+sudo apt-get remove -y libdeflate0 && \
+sudo apt-get remove -y libdevmapper1.02.1 && \
+sudo apt-get remove -y libdpkg-perl && \
+sudo apt-get remove -y libdrm-amdgpu1 && \
+sudo apt-get remove -y libdrm-common && \
+sudo apt-get remove -y libdrm-intel1 && \
+sudo apt-get remove -y libdrm-nouveau2 && \
+sudo apt-get remove -y libdrm-radeon1 && \
+sudo apt-get remove -y libdrm2 && \
+sudo apt-get remove -y libdw1 && \
+sudo apt-get remove -y libedit2 && \
+sudo apt-get remove -y libelf1 && \
+sudo apt-get remove -y liberror-perl && \
+sudo apt-get remove -y libestr0 && \
+sudo apt-get remove -y libevent-2.0-5 && \
+sudo apt-get remove -y libexpat1 && \
+sudo apt-get remove -y libexpat1-dev && \
+sudo apt-get remove -y libfastjson4 && \
+sudo apt-get remove -y libffi-dev && \
+sudo apt-get remove -y libffi7 && \
+sudo apt-get remove -y libfido2-1 && \
+sudo apt-get remove -y libflac8 && \
+sudo apt-get remove -y libfontconfig1 && \
+sudo apt-get remove -y libfontenc1 && \
+sudo apt-get remove -y libfreetype6 && \
+sudo apt-get remove -y libfribidi0 && \
+sudo apt-get remove -y libfstrm0 && \
+sudo apt-get remove -y libfuse2 && \
+sudo apt-get remove -y libgcc-10-dev && \
+sudo apt-get remove -y libgcrypt20 && \
+sudo apt-get remove -y libgd3 && \
+sudo apt-get remove -y libgdbm-compat4 && \
+sudo apt-get remove -y libgdbm-dev && \
+sudo apt-get remove -y libgdbm6 && \
+sudo apt-get remove -y libgdk-pixbuf-2.0-0 && \
+sudo apt-get remove -y libgdk-pixbuf2.0-common && \
+sudo apt-get remove -y libgfortran5 && \
+sudo apt-get remove -y libgif7 && \
+sudo apt-get remove -y libgirepository-1.0-1 && \
+sudo apt-get remove -y libgl1 && \
+sudo apt-get remove -y libgl1-mesa-dri && \
+sudo apt-get remove -y libglapi-mesa && \
+sudo apt-get remove -y libglib2.0-0 && \
+sudo apt-get remove -y libglib2.0-bin && \
+sudo apt-get remove -y libglib2.0-data && \
+sudo apt-get remove -y libglib2.0-dev && \
+sudo apt-get remove -y libglib2.0-dev-bin && \
+sudo apt-get remove -y libglvnd0 && \
+sudo apt-get remove -y libglx-mesa0 && \
+sudo apt-get remove -y libglx0 && \
+sudo apt-get remove -y libgmp-dev && \
+sudo apt-get remove -y libgmpxx4ldbl && \
+sudo apt-get remove -y libgomp1 && \
+sudo apt-get remove -y libgpg-error0 && \
+sudo apt-get remove -y libgpm2 && \
+sudo apt-get remove -y libgraphite2-3 && \
+sudo apt-get remove -y libgssapi-krb5-2 && \
+sudo apt-get remove -y libgtk2.0-0 && \
+sudo apt-get remove -y libgtk2.0-common && \
+sudo apt-get remove -y libgts-0.7-5 && \
+sudo apt-get remove -y libgvc6 && \
+sudo apt-get remove -y libgvpr2 && \
+sudo apt-get remove -y libharfbuzz0b && \
+sudo apt-get remove -y libhdf5-103-1 && \
+sudo apt-get remove -y libhdf5-cpp-103-1 && \
+sudo apt-get remove -y libhdf5-dev && \
+sudo apt-get remove -y libhdf5-fortran-102 && \
+sudo apt-get remove -y libhdf5-hl-100 && \
+sudo apt-get remove -y libhdf5-hl-cpp-100 && \
+sudo apt-get remove -y libhdf5-hl-fortran-100 && \
+sudo apt-get remove -y libhogweed6 && \
+sudo apt-get remove -y libice6 && \
+sudo apt-get remove -y libicu67 && \
+sudo apt-get remove -y libidn11 && \
+sudo apt-get remove -y libidn2-0 && \
+sudo apt-get remove -y libio-pty-perl && \
+sudo apt-get remove -y libip4tc2 && \
+sudo apt-get remove -y libip6tc2 && \
+sudo apt-get remove -y libipc-run-perl && \
+sudo apt-get remove -y libipt2 && \
+sudo apt-get remove -y libisl23 && \
+sudo apt-get remove -y libitm1 && \
+sudo apt-get remove -y libjansson4 && \
+sudo apt-get remove -y libjbig0 && \
+sudo apt-get remove -y libjpeg-dev && \
+sudo apt-get remove -y libjpeg62-turbo && \
+sudo apt-get remove -y libjpeg62-turbo-dev && \
+sudo apt-get remove -y libjq1 && \
+sudo apt-get remove -y libjson-c5 && \
+sudo apt-get remove -y libjson-perl && \
+sudo apt-get remove -y libjsoncpp24 && \
+sudo apt-get remove -y libk5crypto3 && \
+sudo apt-get remove -y libkeyutils1 && \
+sudo apt-get remove -y libklibc && \
+sudo apt-get remove -y libkmod2 && \
+sudo apt-get remove -y libkrb5-3 && \
+sudo apt-get remove -y libkrb5support0 && \
+sudo apt-get remove -y libksba8 && \
+sudo apt-get remove -y liblab-gamut1 && \
+sudo apt-get remove -y liblcms2-2 && \
+sudo apt-get remove -y libldap-2.4-2 && \
+sudo apt-get remove -y libllvm11 && \
+sudo apt-get remove -y libllvm9 && \
+sudo apt-get remove -y liblmdb0 && \
+sudo apt-get remove -y liblognorm5 && \
+sudo apt-get remove -y liblsan0 && \
+sudo apt-get remove -y libltdl7 && \
+sudo apt-get remove -y liblttng-ust-ctl4 && \
+sudo apt-get remove -y liblttng-ust0 && \
+sudo apt-get remove -y liblua5.2-0 && \
+sudo apt-get remove -y liblxc1 && \
+sudo apt-get remove -y liblz4-1 && \
+sudo apt-get remove -y liblzma-dev && \
+sudo apt-get remove -y libmagic-mgc && \
+sudo apt-get remove -y libmagic1 && \
+sudo apt-get remove -y libmaxminddb0 && \
+sudo apt-get remove -y libmd0 && \
+sudo apt-get remove -y libmnl0 && \
+sudo apt-get remove -y libmount-dev && \
+sudo apt-get remove -y libmpc3 && \
+sudo apt-get remove -y libmpdec3 && \
+sudo apt-get remove -y libmpfr6 && \
+sudo apt-get remove -y libncurses-dev && \
+sudo apt-get remove -y libncurses5-dev && \
+sudo apt-get remove -y libncurses6 && \
+sudo apt-get remove -y libncursesw6 && \
+sudo apt-get remove -y libnetfilter-conntrack3 && \
+sudo apt-get remove -y libnettle8 && \
+sudo apt-get remove -y libnfnetlink0 && \
+sudo apt-get remove -y libnftables1 && \
+sudo apt-get remove -y libnftnl11 && \
+sudo apt-get remove -y libnghttp2-14 && \
+sudo apt-get remove -y libnl-3-200 && \
+sudo apt-get remove -y libnl-genl-3-200 && \
+sudo apt-get remove -y libnpth0 && \
+sudo apt-get remove -y libnsl-dev && \
+sudo apt-get remove -y libnsl2 && \
+sudo apt-get remove -y libnspr4 && \
+sudo apt-get remove -y libnss-systemd && \
+sudo apt-get remove -y libnss3 && \
+sudo apt-get remove -y libnuma1 && \
+sudo apt-get remove -y libogg0 && \
+sudo apt-get remove -y libonig5 && \
+sudo apt-get remove -y libopus0 && \
+sudo apt-get remove -y libp11-kit0 && \
+sudo apt-get remove -y libpackagekit-glib2-18 && \
+sudo apt-get remove -y libpam-modules-bin && \
+sudo apt-get remove -y libpam-systemd && \
+sudo apt-get remove -y libpango-1.0-0 && \
+sudo apt-get remove -y libpangocairo-1.0-0 && \
+sudo apt-get remove -y libpangoft2-1.0-0 && \
+sudo apt-get remove -y libpathplan4 && \
+sudo apt-get remove -y libpciaccess0 && \
+sudo apt-get remove -y libpcre16-3 && \
+sudo apt-get remove -y libpcre2-16-0 && \
+sudo apt-get remove -y libpcre2-32-0 && \
+sudo apt-get remove -y libpcre2-8-0 && \
+sudo apt-get remove -y libpcre2-dev && \
+sudo apt-get remove -y libpcre2-posix2 && \
+sudo apt-get remove -y libpcre3 && \
+sudo apt-get remove -y libpcre3-dev && \
+sudo apt-get remove -y libpcre32-3 && \
+sudo apt-get remove -y libpcrecpp0v5 && \
+sudo apt-get remove -y libpcsclite1 && \
+sudo apt-get remove -y libperl5.32 && \
+sudo apt-get remove -y libpipeline1 && \
+sudo apt-get remove -y libpixman-1-0 && \
+sudo apt-get remove -y libpng16-16 && \
+sudo apt-get remove -y libpq-dev && \
+sudo apt-get remove -y libpq5 && \
+sudo apt-get remove -y libprocps8 && \
+sudo apt-get remove -y libprotobuf-c1 && \
+sudo apt-get remove -y libprotobuf23 && \
+sudo apt-get remove -y libprotoc23 && \
+sudo apt-get remove -y libpsl5 && \
+sudo apt-get remove -y libpulse-dev && \
+sudo apt-get remove -y libpulse-mainloop-glib0 && \
+sudo apt-get remove -y libpulse0 && \
+sudo apt-get remove -y libpython2-stdlib && \
+sudo apt-get remove -y libpython2.7 && \
+sudo apt-get remove -y libpython2.7-dev && \
+sudo apt-get remove -y libpython2.7-minimal && \
+sudo apt-get remove -y libpython2.7-stdlib && \
+sudo apt-get remove -y libpython3-stdlib && \
+sudo apt-get remove -y libpython3.9 && \
+sudo apt-get remove -y libpython3.9-dev && \
+sudo apt-get remove -y libpython3.9-minimal && \
+sudo apt-get remove -y libpython3.9-stdlib && \
+sudo apt-get remove -y libquadmath0 && \
+sudo apt-get remove -y libreadline-dev && \
+sudo apt-get remove -y libreadline8 && \
+sudo apt-get remove -y librhash0 && \
+sudo apt-get remove -y librtmp1 && \
+sudo apt-get remove -y libruby2.7 && \
+sudo apt-get remove -y libsasl2-2 && \
+sudo apt-get remove -y libsasl2-modules-db && \
+sudo apt-get remove -y libsecret-1-0 && \
+sudo apt-get remove -y libsecret-common && \
+sudo apt-get remove -y libselinux1-dev && \
+sudo apt-get remove -y libsemanage-common && \
+sudo apt-get remove -y libsemanage1 && \
+sudo apt-get remove -y libsensors-config && \
+sudo apt-get remove -y libsensors5 && \
+sudo apt-get remove -y libsepol1 && \
+sudo apt-get remove -y libsepol1-dev && \
+sudo apt-get remove -y libsigsegv2 && \
+sudo apt-get remove -y libslang2 && \
+sudo apt-get remove -y libslirp0 && \
+sudo apt-get remove -y libsm6 && \
+sudo apt-get remove -y libsndfile1 && \
+sudo apt-get remove -y libsodium23 && \
+sudo apt-get remove -y libsource-highlight-common && \
+sudo apt-get remove -y libsource-highlight4v5 && \
+sudo apt-get remove -y libsqlite3-0 && \
+sudo apt-get remove -y libsqlite3-dev && \
+sudo apt-get remove -y libssh2-1 && \
+sudo apt-get remove -y libssl-dev && \
+sudo apt-get remove -y libssl1.1 && \
+sudo apt-get remove -y libstdc++-10-dev && \
+sudo apt-get remove -y libsz2 && \
+sudo apt-get remove -y libtasn1-6 && \
+sudo apt-get remove -y libtcl8.6 && \
+sudo apt-get remove -y libthai-data && \
+sudo apt-get remove -y libthai0 && \
+sudo apt-get remove -y libtiff5 && \
+sudo apt-get remove -y libtime-duration-perl && \
+sudo apt-get remove -y libtimedate-perl && \
+sudo apt-get remove -y libtirpc-common && \
+sudo apt-get remove -y libtirpc-dev && \
+sudo apt-get remove -y libtirpc3 && \
+sudo apt-get remove -y libtool && \
+sudo apt-get remove -y libtsan0 && \
+sudo apt-get remove -y libubsan1 && \
+sudo apt-get remove -y libuchardet0 && \
+sudo apt-get remove -y libunistring2 && \
+sudo apt-get remove -y libunwind8 && \
+sudo apt-get remove -y liburcu6 && \
+sudo apt-get remove -y libutempter0 && \
+sudo apt-get remove -y libuv1 && \
+sudo apt-get remove -y libvorbis0a && \
+sudo apt-get remove -y libvorbisenc2 && \
+sudo apt-get remove -y libvulkan1 && \
+sudo apt-get remove -y libwebp6 && \
+sudo apt-get remove -y libwrap0 && \
+sudo apt-get remove -y libx11-6 && \
+sudo apt-get remove -y libx11-data && \
+sudo apt-get remove -y libx11-xcb1 && \
+sudo apt-get remove -y libxau6 && \
+sudo apt-get remove -y libxaw7 && \
+sudo apt-get remove -y libxcb-dri2-0 && \
+sudo apt-get remove -y libxcb-dri3-0 && \
+sudo apt-get remove -y libxcb-glx0 && \
+sudo apt-get remove -y libxcb-present0 && \
+sudo apt-get remove -y libxcb-render0 && \
+sudo apt-get remove -y libxcb-shape0 && \
+sudo apt-get remove -y libxcb-shm0 && \
+sudo apt-get remove -y libxcb-sync1 && \
+sudo apt-get remove -y libxcb-xfixes0 && \
+sudo apt-get remove -y libxcb1 && \
+sudo apt-get remove -y libxcomposite1 && \
+sudo apt-get remove -y libxcursor1 && \
+sudo apt-get remove -y libxdamage1 && \
+sudo apt-get remove -y libxdmcp6 && \
+sudo apt-get remove -y libxext6 && \
+sudo apt-get remove -y libxfixes3 && \
+sudo apt-get remove -y libxft2 && \
+sudo apt-get remove -y libxi6 && \
+sudo apt-get remove -y libxinerama1 && \
+sudo apt-get remove -y libxkbfile1 && \
+sudo apt-get remove -y libxml2 && \
+sudo apt-get remove -y libxmu6 && \
+sudo apt-get remove -y libxmuu1 && \
+sudo apt-get remove -y libxpm4 && \
+sudo apt-get remove -y libxrandr2 && \
+sudo apt-get remove -y libxrender1 && \
+sudo apt-get remove -y libxshmfence1 && \
+sudo apt-get remove -y libxslt1.1 && \
+sudo apt-get remove -y libxt6 && \
+sudo apt-get remove -y libxtables12 && \
+sudo apt-get remove -y libxtst6 && \
+sudo apt-get remove -y libxv1 && \
+sudo apt-get remove -y libxxf86dga1 && \
+sudo apt-get remove -y libxxf86vm1 && \
+sudo apt-get remove -y libxxhash0 && \
+sudo apt-get remove -y libyaml-0-2 && \
+sudo apt-get remove -y libyaml-dev && \
+sudo apt-get remove -y libz3-4 && \
+sudo apt-get remove -y libzstd1 && \
+sudo apt-get remove -y linux-base && \
+sudo apt-get remove -y linux-libc-dev && \
+sudo apt-get remove -y locales && \
+sudo apt-get remove -y lsb-release && \
+sudo apt-get remove -y lxc && \
+sudo apt-get remove -y lynx && \
+sudo apt-get remove -y lynx-common && \
+sudo apt-get remove -y m4 && \
+sudo apt-get remove -y mailcap && \
+sudo apt-get remove -y make && \
+sudo apt-get remove -y man-db && \
+sudo apt-get remove -y manpages && \
+sudo apt-get remove -y mc && \
+sudo apt-get remove -y mc-data && \
+sudo apt-get remove -y media-types && \
+sudo apt-get remove -y mercurial && \
+sudo apt-get remove -y mercurial-common && \
+sudo apt-get remove -y mime-support && \
+sudo apt-get remove -y moreutils && \
+sudo apt-get remove -y mount && \
+sudo apt-get remove -y mysql-apt-config && \
+sudo apt-get remove -y mysql-client && \
+sudo apt-get remove -y mysql-common && \
+sudo apt-get remove -y mysql-community-client && \
+sudo apt-get remove -y mysql-community-client-core && \
+sudo apt-get remove -y mysql-community-client-plugins && \
+sudo apt-get remove -y nano && \
+sudo apt-get remove -y net-tools && \
+sudo apt-get remove -y netbase && \
+sudo apt-get remove -y netstandard-targeting-pack-2.1 && \
+sudo apt-get remove -y nftables && \
+sudo apt-get remove -y openjdk-11-jdk && \
+sudo apt-get remove -y openjdk-11-jdk-headless && \
+sudo apt-get remove -y openjdk-11-jre && \
+sudo apt-get remove -y openjdk-11-jre-headless && \
+sudo apt-get remove -y openjdk-17-jdk && \
+sudo apt-get remove -y openjdk-17-jdk-headless && \
+sudo apt-get remove -y openjdk-17-jre && \
+sudo apt-get remove -y openjdk-17-jre-headless && \
+sudo apt-get remove -y openjdk-8-jdk && \
+sudo apt-get remove -y openjdk-8-jdk-headless && \
+sudo apt-get remove -y openjdk-8-jre && \
+sudo apt-get remove -y openjdk-8-jre-headless && \
+sudo apt-get remove -y openssh-client && \
+sudo apt-get remove -y openssh-server && \
+sudo apt-get remove -y openssh-sftp-server && \
+sudo apt-get remove -y openssl && \
+sudo apt-get remove -y packages-microsoft-prod && \
+sudo apt-get remove -y packer && \
+sudo apt-get remove -y parallel && \
+sudo apt-get remove -y passwd && \
+sudo apt-get remove -y patch && \
+sudo apt-get remove -y perl && \
+sudo apt-get remove -y perl-modules-5.32 && \
+sudo apt-get remove -y pgdg-keyring && \
+sudo apt-get remove -y php-common && \
+sudo apt-get remove -y php-pear && \
+sudo apt-get remove -y php7.2-bcmath && \
+sudo apt-get remove -y php7.2-cgi && \
+sudo apt-get remove -y php7.2-cli && \
+sudo apt-get remove -y php7.2-common && \
+sudo apt-get remove -y php7.2-dev && \
+sudo apt-get remove -y php7.2-json && \
+sudo apt-get remove -y php7.2-mbstring && \
+sudo apt-get remove -y php7.2-mysql && \
+sudo apt-get remove -y php7.2-opcache && \
+sudo apt-get remove -y php7.2-readline && \
+sudo apt-get remove -y php7.2-xml && \
+sudo apt-get remove -y pigz && \
+sudo apt-get remove -y pinentry-curses && \
+sudo apt-get remove -y pkg-config && \
+sudo apt-get remove -y postgresql && \
+sudo apt-get remove -y postgresql-14 && \
+sudo apt-get remove -y postgresql-client && \
+sudo apt-get remove -y postgresql-client-14 && \
+sudo apt-get remove -y postgresql-client-common && \
+sudo apt-get remove -y postgresql-common && \
+sudo apt-get remove -y powershell && \
+sudo apt-get remove -y procps && \
+sudo apt-get remove -y protobuf-compiler && \
+sudo apt-get remove -y psmisc && \
+sudo apt-get remove -y python-apt-common && \
+sudo apt-get remove -y python-pip-whl && \
+sudo apt-get remove -y python-pkg-resources && \
+sudo apt-get remove -y python-setuptools && \
+sudo apt-get remove -y python2 && \
+sudo apt-get remove -y python2-minimal && \
+sudo apt-get remove -y python2.7 && \
+sudo apt-get remove -y python2.7-dev && \
+sudo apt-get remove -y python2.7-minimal && \
+sudo apt-get remove -y python3 && \
+sudo apt-get remove -y python3-apt && \
+sudo apt-get remove -y python3-dbus && \
+sudo apt-get remove -y python3-distutils && \
+sudo apt-get remove -y python3-gi && \
+sudo apt-get remove -y python3-lib2to3 && \
+sudo apt-get remove -y python3-minimal && \
+sudo apt-get remove -y python3-pip && \
+sudo apt-get remove -y python3-pkg-resources && \
+sudo apt-get remove -y python3-pycurl && \
+sudo apt-get remove -y python3-setuptools && \
+sudo apt-get remove -y python3-software-properties && \
+sudo apt-get remove -y python3-venv && \
+sudo apt-get remove -y python3-wheel && \
+sudo apt-get remove -y python3.9 && \
+sudo apt-get remove -y python3.9-dev && \
+sudo apt-get remove -y python3.9-minimal && \
+sudo apt-get remove -y python3.9-venv && \
+sudo apt-get remove -y qemu-user && \
+sudo apt-get remove -y qemu-user-static && \
+sudo apt-get remove -y rake && \
+sudo apt-get remove -y readline-common && \
+sudo apt-get remove -y rsyslog && \
+sudo apt-get remove -y ruby && \
+sudo apt-get remove -y ruby-dev && \
+sudo apt-get remove -y ruby-minitest && \
+sudo apt-get remove -y ruby-net-telnet && \
+sudo apt-get remove -y ruby-power-assert && \
+sudo apt-get remove -y ruby-rubygems && \
+sudo apt-get remove -y ruby-test-unit && \
+sudo apt-get remove -y ruby-xmlrpc && \
+sudo apt-get remove -y ruby2.7 && \
+sudo apt-get remove -y ruby2.7-dev && \
+sudo apt-get remove -y rubygems-integration && \
+sudo apt-get remove -y runit-helper && \
+sudo apt-get remove -y sensible-utils && \
+sudo apt-get remove -y shared-mime-info && \
+sudo apt-get remove -y shtool && \
+sudo apt-get remove -y slirp4netns && \
+sudo apt-get remove -y software-properties-common && \
+sudo apt-get remove -y sqlite3 && \
+sudo apt-get remove -y ssl-cert && \
+sudo apt-get remove -y strace && \
+sudo apt-get remove -y sysstat && \
+sudo apt-get remove -y systemd && \
+sudo apt-get remove -y systemd-sysv && \
+sudo apt-get remove -y systemd-timesyncd && \
+sudo apt-get remove -y telnet && \
+sudo apt-get remove -y terraform && \
+sudo apt-get remove -y tmux && \
+sudo apt-get remove -y tzdata && \
+sudo apt-get remove -y ucf && \
+sudo apt-get remove -y udev && \
+sudo apt-get remove -y unzip && \
+sudo apt-get remove -y uuid-dev && \
+sudo apt-get remove -y vim && \
+sudo apt-get remove -y vim-common && \
+sudo apt-get remove -y vim-nox && \
+sudo apt-get remove -y vim-runtime && \
+sudo apt-get remove -y wget && \
+sudo apt-get remove -y whois && \
+sudo apt-get remove -y x11-common && \
+sudo apt-get remove -y x11-utils && \
+sudo apt-get remove -y xxd && \
+sudo apt-get remove -y xz-utils && \
+sudo apt-get remove -y zip && \
+sudo apt-get remove -y zlib1g-dev
