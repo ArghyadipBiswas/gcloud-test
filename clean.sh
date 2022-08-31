@@ -504,8 +504,6 @@ sudo apt-get remove -y openjdk-17-jdk && \
 sudo apt-get remove -y openjdk-17-jdk-headless && \
 sudo apt-get remove -y openjdk-17-jre && \
 sudo apt-get remove -y openjdk-17-jre-headless && \
-sudo apt-get remove -y openjdk-8-jre && \
-sudo apt-get remove -y openjdk-8-jre-headless && \
 sudo apt-get remove -y openssh-client && \
 sudo apt-get remove -y openssh-server && \
 sudo apt-get remove -y openssh-sftp-server && \
