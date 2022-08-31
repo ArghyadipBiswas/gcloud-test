@@ -492,7 +492,6 @@ sudo apt-get remove -y mysql-common && \
 sudo apt-get remove -y mysql-community-client && \
 sudo apt-get remove -y mysql-community-client-core && \
 sudo apt-get remove -y mysql-community-client-plugins && \
-sudo apt-get remove -y nano && \
 sudo apt-get remove -y net-tools && \
 sudo apt-get remove -y netbase && \
 sudo apt-get remove -y netstandard-targeting-pack-2.1 && \
@@ -505,8 +504,6 @@ sudo apt-get remove -y openjdk-17-jdk && \
 sudo apt-get remove -y openjdk-17-jdk-headless && \
 sudo apt-get remove -y openjdk-17-jre && \
 sudo apt-get remove -y openjdk-17-jre-headless && \
-sudo apt-get remove -y openjdk-8-jdk && \
-sudo apt-get remove -y openjdk-8-jdk-headless && \
 sudo apt-get remove -y openjdk-8-jre && \
 sudo apt-get remove -y openjdk-8-jre-headless && \
 sudo apt-get remove -y openssh-client && \
