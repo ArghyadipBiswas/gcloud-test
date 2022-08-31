@@ -1,4 +1,4 @@
-adduser \
+sudo apt remove -y \
 adwaita-icon-theme \
 apparmor \
 apt-transport-https \
