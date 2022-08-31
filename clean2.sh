@@ -1,4 +1,4 @@
-apparmor \
+sudo apt-get remove -y apparmor \
 apt-transport-https \
 aspnetcore-runtime-2.1 \
 aspnetcore-runtime-3.1 \
